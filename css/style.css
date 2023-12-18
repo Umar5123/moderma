@@ -1,0 +1,595 @@
+.links li a {
+    font-size: 18px;
+    font-weight: 420;
+    color: #ffffff !important;
+}
+
+.navbar-brand span {
+    font-size: 28px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.links li {
+    padding-left: 5px;
+}
+
+.links li a:hover {
+    color: #3498db !important;
+}
+
+
+.nav-button {
+    all: unset;
+    background: #3498db;
+    padding: 8px 25px;
+    color: white;
+    border-radius: 20px;
+}
+
+#top {
+    /*background: rgba(30, 67, 86, 0.8);*/
+    background: linear-gradient(to bottom, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6));
+
+}
+
+/*****************BANNER *********************/
+#banner {
+    background: url(../assets/img/hero-bg.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow-x: hidden;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+
+#banner::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6));
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+
+}
+
+/*
+:root {
+    linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)),
+    url("../img/hero-bg.jpg") center top no-repeat
+}*/
+
+.banner-text {
+    padding-top: 230px;
+    color: #ffffff;
+    z-index: 3;
+}
+
+section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+@media (max-width: 992px) {
+    .banner-text {
+        padding-top: 160px;
+    }
+}
+
+/***************** First card *********************/
+.first-card {
+    box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
+    background: #ffff;
+    padding: 30px;
+    border: 2px solid #ffff;
+    text-align: center !important;
+}
+
+/*.iconbox*/
+.first-card i {
+    width: 72px;
+    height: 72px;
+    background: #205774;
+    color: #ffff;
+    font-size: 40px;
+    border-radius: 100px;
+    margin: 10px auto;
+}
+
+@media (max-width: 992px) {
+    .first-card {
+        margin-bottom: 30px;
+    }
+}
+
+/***************** First card *********************/
+/**************** Video ********************/
+
+.video-text i {
+    width: 72px;
+    height: 72px;
+    background: #f3f8fa;
+    border-radius: 7px;
+    color: #68A4C4;
+    font-size: 32px;
+    transition: all .3s ease-in-out;
+}
+
+.video-text i:hover {
+    background: #68A4C4;
+    color: white;
+}
+
+@media (max-width: 992px) {
+    .video-text {
+        margin-top: 30px;
+    }
+}
+
+/**************** Video ********************/
+/************** Foorer input *************/
+.footer-form {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.footer-form input {
+    padding: 8px 0px;
+    border-radius: 30px;
+}
+
+.footer-form input:focus {
+    padding-left: 20px;
+    outline: none;
+    border: 0;
+}
+
+.submit button {
+    background: #68A4C4;
+    color: #ffffff;
+    border-radius: 30px;
+    outline: none;
+    border: 0;
+    padding: 7px 20px;
+    margin: 2px;
+}
+
+/************** Foorer input *************/
+.footer-top {
+    background: #1e4356;
+    padding: 50px 0px;
+    border-bottom: 1px solid rgba(162, 204, 277);
+}
+
+.footer-text h4 {
+    color: rgba(162, 204, 277);
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.footer-text p {
+    color: white;
+}
+
+/********** Media Qurrey for footer top *************/
+@media (max-width: 390px) {
+    .footer-text h4 {
+        /*color: rgba(162, 204, 277);*/
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .footer-text p {
+        color: white;
+        font-size: 12px;
+    }
+}
+
+/********** Media Qurrey for footer top *************/
+.footer-doen {
+    background: #0d2735;
+    color: white;
+    border-bottom: 1px solid rgba(162, 204, 277);
+    padding: 50px 0px;
+}
+
+.footer-last {
+    background: #0b212d;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.footer-ocond i {
+    font-size: 20px;
+    padding: 8px;
+    background: #1e4356;
+    color: white;
+    margin: 0px 7px 0px 0px;
+    transition: .3s ease;
+    border-radius: 100px;
+}
+
+.first-icons i {
+    transform: rotate(90deg);
+    color: #a2cce3
+}
+
+.footer-ocond i:hover {
+    background: #3498db;
+    color: white;
+}
+
+.first-icons h3 {
+    font-size: 25px;
+    color: rgba(162, 204, 277);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/*********** ABOUT US ************/
+/*.leed {
+    background: #e0e3e4;
+    padding: 15px 0px;
+    color: black;
+}*/
+
+.root {
+    background: #1e4356;
+}
+
+/******************** breadcrumbs ********************/
+.breadcrumbs {
+    background-color: #f3f8fa;
+    min-height: 40px;
+    padding: 15px 0px;
+}
+
+.breadcrumbs h4 {
+    font-size: 32px;
+    font-weight: 450;
+    color: #444444;
+}
+
+.breadcrumbs a {
+    font-size: 18px;
+}
+
+/******************** Breadcrumbs *****************/
+.progress-bar {
+    padding: 20px;
+}
+
+/******************** End breadcrumbs ********************/
+
+/******************** testimonial ************************/
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+/******************** End testimonial ************************/
+
+/******************** services ************************/
+.card {
+    position: relative;
+    border: 0;
+
+}
+
+.main {
+    overflow: hidden;
+    width: 100%;
+    z-index: 5;
+
+}
+
+.main img {
+    transform: scale(1);
+    width: 100%;
+    transition: all .3s ease;
+}
+
+.main:hover img {
+    transform: scale(1.09);
+}
+
+.overly {
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    margin-top: -100px;
+    background: white;
+    color: #0b212d;
+    width: 80%;
+    padding: 20px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: all .3s ease;
+    z-index: 6;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card:hover .overly {
+    border-top: 4px solid #1c5774;
+    border-bottom: 4px solid #1c5774;
+}
+
+/******************** End services ************************/
+
+/******************* price *********************/
+.price {
+    box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+    padding: 30px;
+}
+
+.price-btn button {
+    padding: 6px 45px;
+    background: #0b212d;
+    color: white;
+    border-radius: 30px;
+    transition: all .3s ease;
+    outline: none;
+    border: 0;
+}
+
+.price-btn button:hover {
+    background: #1c5774;
+}
+
+/******************* End price *********************/
+.box {
+    border: 0px solid maroon;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+
+}
+
+.box img {
+    width: 100%;
+    border-radius: 5px;
+
+    transform: scale(1);
+    transition: all .5s ease;
+    height: 100%;
+}
+
+.box:hover img {
+    transform: scale(1.09);
+}
+
+.content {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 90px 0px 0px 0px;
+    color: white;
+    background: rgba(41, 54, 107, 0.5);
+    transition: all .5s ease;
+    opacity: 0;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.box:hover .content {
+    top: 0;
+    opacity: 1;
+    overflow: hidden;
+}
+
+/******************* End price *********************/
+/******************* TEAM *********************/
+.team-img {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.team-icons {
+    position: absolute;
+    bottom: 0;
+    background: rgba(30, 67, 86, 0.8);
+    overflow: hidden;
+    height: 10%;
+    width: 100%;
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+.team-img:hover .team-icons {
+    opacity: 1;
+}
+
+.team-icons i {
+    color: white;
+    font-size: 20px;
+    margin: 0px 12px;
+    /* padding: 0px 15px;*/
+    transition: all .3s ease;
+}
+
+.team-icons i:hover {
+    transform: rotate(360deg);
+    color: #dce7eb;
+}
+
+.team-info {
+    color: #666;
+    transition: all .3s ease;
+
+}
+
+.team-info h4 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.team-info span {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 450;
+    color: #68A4C4;
+}
+
+.team-info p {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 26px;
+    color: #666
+}
+
+/******************* End TEAM *********************/
+
+/******************* Blog *********************/
+.blog-links li a {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.blog-links span {
+    margin-left: 10px;
+    color: #666;
+}
+
+.blog-recent-text a {
+    color: #000000;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.blog-recent-text p {
+    font-style: italic;
+    font-size: 15px;
+    color: #aaaaaa;
+}
+
+.btns a {
+    color: #3f8db5;
+    font-size: 14px;
+    padding: 6px 14px;
+    margin: 0 6px 8px 0;
+    border: 1px solid #e4eff5;
+    display: inline-block;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+
+.btns a:hover {
+    background: #3f8db5;
+    color: white;
+}
+
+.blog-text a {
+    color: #777777;
+    font-size: 17px
+}
+
+.blog-text i {
+    color: #3498db;
+    font-size: 17px
+}
+
+.blog-text {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.blog-button button {
+    padding: 10px 30px;
+    background: #347294;
+    border: 0;
+    transition: all .3s ease;
+}
+
+.blog-button button:hover {
+    background: #5f8ba2;
+}
+
+.pignation a {
+    margin-left: 8px;
+    padding: 10px 15px;
+    color: #000000;
+    transition: all .3s ease;
+    border-radius: 2px;
+}
+
+.pignation .active {
+    background: #387EA2;
+    color: white;
+}
+
+.pignation a:hover {
+    background: #387EA2;
+    color: white;
+}
+
+/******************* End Blog *********************/
+
+/******************* Contact *********************/
+
+.address h3 {
+    font-size: 20px;
+    color: #666;
+    font-weight: 700;
+}
+
+.address i {
+    font-size: 32px;
+    color: #68A4C4;
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px dotted #a2cce3;
+}
+
+.address {
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+}
+
+.address p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.address input {
+    /*border: 1px solid #32bbff;*/
+    border-radius: 0;
+    box-shadow: none !important;
+    padding: 10px 15px;
+}
+
+input {
+    box-shadow: none !important;
+}
+
+textarea {
+
+    border-radius: 0 !important;
+    box-shadow: none !important;
+
+}
+
+/******************* Contact *********************/
